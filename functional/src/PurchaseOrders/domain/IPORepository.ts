@@ -4,5 +4,5 @@ import { PurchaseOrder } from "./PurchaseOrder";
 
 export interface IPORepository {
   save: (po: PurchaseOrder) => Promise<Result<undefined, Error>>;
-  fetch: (id: UUID) => Promise<Result<Option<PurchaseOrder>, Error>>
+  fetch: (id: UUID) => Promise<Result<Option<PurchaseOrder>, Error>>;
 }

@@ -18,23 +18,22 @@ describe("Create PO Workflow", () => {
     expect(isUuid(id)).toBeTruthy();
   });
 
-  it('saves a purchase order to a repository', async () => {
+  it("saves a purchase order to a repository", async () => {
     const repo = constructPORepository();
     const result = await createPO({ PORepo: repo })();
     const id = result.unwrap();
     const poRes = await repo.fetch(id);
     const output = match(poRes, {
       Ok: {
-         Some: (result) => result,
-         None: () => "No results for that search.",
+        Some: (result) => result,
+        None: () => "No results for that search.",
       },
       Err: (err) => `Error: ${err}.`,
     });
 
-
     expect(isPurchaseOrder(output)).toBeTruthy();
     if (isPurchaseOrder(output)) {
-      expect(id).toEqual(output.id)  
+      expect(id).toEqual(output.id);
     }
-  })
+  });
 });
