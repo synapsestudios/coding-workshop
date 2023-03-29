@@ -1,7 +1,9 @@
 # PO Number
 
+```
 In order to track Purchase Orders internally and across many external accounting systems
 I want Purchase Orders to be automatically assigned a Purchase Order number when they're submitted
+```
 
 ## Details and Instructions
 

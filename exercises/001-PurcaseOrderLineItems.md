@@ -1,7 +1,9 @@
 # Purchase Order Line Items
 
+```
 In order to purchase the things I need
 I want to be able to specify line items when I create a Purchase Order
+```
 
 ## Details and Instructions
 
