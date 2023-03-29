@@ -10,3 +10,7 @@ Software systems are designed well when, among other things, they are easy to ch
 The first is that your software systems are intention revealing. They emanate domain knowledge. If a new developer is reading a section of code they learn about the domain by learning about the software system. You don't even need to be a new developer on the project -- it can just be you six months after you wrote something.
 
 The second is that systems become easier to change. Systems that model their domain effectively will be easier to understand, and therefore easier to change. If a system models the domain well then new features requests will naturally fit into the system more smoothly with less work and awkwardness.
+
+## Introducing the Workshop
+
+Unless you're already very good at domain modeling, or the people who designed the system(s) you work on were, then finding an opportunity to learn how to do it and practice the skill can be very difficult. Effective domain modeling requires a system to be designed so that domain code and "infrastructure" code are separated using something a hexagonal or otherwise clean architecture. Only once the domain code can really model the domain without compromise will you be able to practice domain modeling. This workshop is designed to provide a sandbox in which to practice encoding domain knowledge into software applications.
