@@ -14,3 +14,11 @@ The second is that systems become easier to change. Systems that model their dom
 ## Introducing the Workshop
 
 Unless you're already very good at domain modeling, or the people who designed the system(s) you work on were, then finding an opportunity to learn how to do it and practice the skill can be very difficult. Effective domain modeling requires a system to be designed so that domain code and "infrastructure" code are separated using something a hexagonal or otherwise clean architecture. Only once the domain code can really model the domain without compromise will you be able to practice domain modeling. This workshop is designed to provide a sandbox in which to practice encoding domain knowledge into software applications.
+
+### The Domain :: Procurement
+
+For this workshop we'll be working in a simplified version of the procurement domain. Specifically I want to spend time modelling out the lifecycle of Purchase Orders. Businesses use Purchase Orders to standardize the process of buying stuff like office supplies, cleaning supplies or even medical equipment. Companies need to buy stuff in order to operate, and as businesses get bigger it becomes harder and harder to manage the kinds of stuff that people can buy, the people who are allowed to buy things, and the vendors that they're allowed to buy things from. So we all use purchase orders and invoices as a standard. Everybody uses Purchase Orders and every supplier understands the standard Purchase Order process.
+
+For this workshop we will be building ONLY THE DOMAIN CODE for a Purchase Order system. Our software will manage the lifecycle of a Purchase Order all the way from creation, through approval, to the end of its life when goods and services have been received and verified.
+
+![Flow of a Purchase Order through its states](./PO-lifecycle.png)
