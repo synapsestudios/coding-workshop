@@ -1,9 +1,9 @@
 import { isUuid } from "../../utilities/uuid";
-import { createPurchaseOrder } from "./PurchaseOrder";
+import { PurchaseOrder } from "./PurchaseOrder";
 
 describe("Purcase Order Entity", () => {
-  it("does it", () => {
-    const PO = createPurchaseOrder();
+  it("instantiates", () => {
+    const PO = new PurchaseOrder();
     expect(isUuid(PO.id)).toBeTruthy();
   });
 });

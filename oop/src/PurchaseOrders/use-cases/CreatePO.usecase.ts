@@ -1,12 +1,13 @@
 import { UseCase } from "../../lib/UseCase.base";
 import { IPORepository } from "../domain/IPORepository";
+import { PurchaseOrder } from "../domain/PurchaseOrder";
 
 type CreatePOProps = {};
 export class CreatePO implements UseCase<CreatePOProps> {
   constructor(private repo: IPORepository) {}
   async execute() {
-    // const purchaseOrder = createPurchaseOrder();
-    // const res = await PORepo.save(purchaseOrder);
-    // return res.map(() => purchaseOrder.id);
+    const purchaseOrder = new PurchaseOrder();
+    await this.repo.save(purchaseOrder);
+    return purchaseOrder.id;
   }
 }

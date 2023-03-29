@@ -6,4 +6,13 @@ describe("CreatePO", () => {
     const repo = new PORepository();
     new CreatePO(repo);
   });
+
+  it("*", async () => {
+    const repo = new PORepository();
+    const useCase = new CreatePO(repo);
+
+    const id = await useCase.execute();
+    const po = await repo.fetch(id);
+    expect(po).toBeTruthy();
+  });
 });
