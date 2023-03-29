@@ -1,8 +1,7 @@
-import { Option, Result } from "oxide.ts";
 import { UUID } from "../../utilities/uuid";
 import { PurchaseOrder } from "./PurchaseOrder";
 
 export interface IPORepository {
-  save: (po: PurchaseOrder) => Promise<Result<undefined, Error>>;
-  fetch: (id: UUID) => Promise<Result<Option<PurchaseOrder>, Error>>;
+  save: (po: PurchaseOrder) => Promise<void>;
+  fetch: (id: UUID) => Promise<PurchaseOrder | null>;
 }

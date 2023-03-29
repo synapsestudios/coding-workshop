@@ -3,15 +3,14 @@ import { UUID } from "../../utilities/uuid";
 import { IPORepository } from "./IPORepository";
 import { PurchaseOrder } from "./PurchaseOrder";
 
-class PORepository implements IPORepository {
+export class PORepository implements IPORepository {
   purchaseOrders: PurchaseOrder[] = [];
   async save(po: PurchaseOrder) {
     this.purchaseOrders.push(po);
-    return Ok(undefined);
+    return undefined;
   }
   async fetch(id: UUID) {
-    const po = this.purchaseOrders.find((p) => p.id === id);
-    return po ? Ok(Some(po)) : Ok(None);
+    const x = this.purchaseOrders.find((p) => p.id === id);
+    return x || null;
   }
 }
-export const constructPORepository = () => new PORepository();

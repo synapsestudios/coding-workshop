@@ -1,7 +1,9 @@
+import { PORepository } from "../domain/PORepistory";
 import { CreatePO } from "./CreatePO.usecase";
 
 describe("CreatePO", () => {
   it("instantiates", () => {
-    new CreatePO();
+    const repo = new PORepository();
+    new CreatePO(repo);
   });
 });
