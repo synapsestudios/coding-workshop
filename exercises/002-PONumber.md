@@ -12,4 +12,4 @@ The **Purchase Order Number** or **PO Number** is an important domain concept. E
 1. a PO number is a unique number
 1. A PO number is sequential. It starts with 000001 and progresses to 000002
    but only within an organizational boundary.
-1. PO numbers have a prefix that is based on the organization. For now hardcoding it like `syn-000001` is expected.
+1. PO numbers have a prefix that is based on the organization. For now hardcoding it like `syn-000001` and `syn-000002` is expected.
