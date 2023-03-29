@@ -22,3 +22,7 @@ For this workshop we'll be working in a simplified version of the procurement do
 For this workshop we will be building ONLY THE DOMAIN CODE for a Purchase Order system. Our software will manage the lifecycle of a Purchase Order all the way from creation, through approval, to the end of its life when goods and services have been received and verified.
 
 ![Flow of a Purchase Order through its states](./PO-lifecycle.png)
+
+### Participating in the Workshop
+
+The workshop will be designed to happen synchronously in 90 minute sessions. It is expected for developers to attend multiple. There will be a series of exercises which will prompt you to begin to model out the domain and a proctor will be on hand to answer any domain questions. The exercises can only be completed in order as later exercises will assume the completion of the former. They will simulate the real development of a PO system and the model will be developed over time. However, it is not strictly the goal to complete the exercises. If attendees wish to spend their time refactoring code from previous exercises to practice different modeling techniques that will be encouraged and expected. It will even be expected to start over from time to time.
