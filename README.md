@@ -1,6 +1,7 @@
 # Domain Modeling Workshop
 
 > A model is a simplification. It is an interpretation of reality that abstracts the aspects relevant to solving the problem at hand and ignores extraneous detail.
+>
 > Eric Evans, Domain Driven Design
 
 When developers are working on a software system they learn about the business and industry that the software is for. If you're working in finance you're going to learn about how transactions and accounts work, and you'll learn the specific rules for calculating interest in different kinds of financial instruments. If you're working in shipping you'll learn about how cargo makes its way to ports, is loaded onto ships and is moved around the globe satisfying complex and dynamic requirements about tracking and arrival dates. We learn all this domain knowledge and then encode it into the software systems that we build.
