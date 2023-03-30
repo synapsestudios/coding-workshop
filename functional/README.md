@@ -67,3 +67,10 @@ type PayInvoice = (
 Unfortunately, due to some limitations in typescript, using `Result` and `Option` types can feel cumbersome. One of the core issues is how embedded async programming is into typescript and how Promises interact with the `Result` and `Option` types. [Neverthrow](https://github.com/supermacro/neverthrow) is a good library that provides a Result type that has a better async api than oxide.ts, but Neverthrow does not provide an `Option` type.
 
 Ultimately I think these types can cleanly be worked into models, but it's up to you if you want to try or not. If you prefer to avoid the trouble then I'd recommend running `npm uninstall oxide.ts` and removing the `Result` and `Option` code in the starter template.
+
+## Further Study
+
+- [Book: Domain Modeling Made Functional by Scott Wlaschin](https://pragprog.com/titles/swdddf/domain-modeling-made-functional/)
+- [Book: Functional and Reactive Domain Modeling](https://www.manning.com/books/functional-and-reactive-domain-modeling)
+- Free online book [Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbook.io/mostly-adequate-guide/)
+- [Talk: Functional Programming and Domain Driven Design](https://www.youtube.com/watch?v=56j8kLMdkyQ)
