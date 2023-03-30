@@ -51,7 +51,7 @@ The above code attempts to express domain knowledge in the code using the type s
 
 ## Dealing with Optional values and Errors in a functional way
 
-For the starter template I've opted to include a library called (oxide.ts)[https://github.com/traverse1984/oxide.ts] that gives us an `Option` and a `Result` type. These types allow us to build pure composable functions and have explicitly declared error states, which is something we can't get with native typescript or javascript. Here's an example:
+For the starter template I've opted to include a library called [oxide.ts](https://github.com/traverse1984/oxide.ts) that gives us an `Option` and a `Result` type. These types allow us to build pure composable functions and have explicitly declared error states, which is something we can't get with native typescript or javascript. Here's an example:
 
 ```typescript
 type PaymentError =
