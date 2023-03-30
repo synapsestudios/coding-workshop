@@ -8,5 +8,3 @@ I want to be able to specify line items when I create a Purchase Order
 ## Details and Instructions
 
 **Line Items** are a domain term. These are the goods that the PO author is attempting to purchase. Each line item will have an item number, a description, a price and a quantity. The expectation is that a list of line items will be provided at the time the Purchase Order is created.
-
-Hint: Check out the page in the pattern library on [aggregates](../pattern-library/aggregate.md)
