@@ -11,7 +11,7 @@ $> npm i
 $> npm test
 ```
 
-This is a starting point for modeling the procurement domain with an object oriented style. There is a single starter workflow to [Create a new Purchase Order](./src//PurchaseOrders/workflows/Create-PO.ts). This workflow has a [repository](/pattern-library/repository.md) injected into it using the [Dependency Inversion Principle](/pattern-library/SOLID/Dependency-Inversion-Principle.md).
+This is a starting point for modeling the procurement domain with a functional oriented style. There is a single starter workflow to [Create a new Purchase Order](./src//PurchaseOrders/workflows/Create-PO.ts). This workflow has a [repository](/pattern-library/repository.md) injected into it using the [Dependency Inversion Principle](/pattern-library/SOLID/Dependency-Inversion-Principle.md).
 
 There is a single starter entity for the Purchase Order that does nothing but generate an id for itself when it is constructed.
 
