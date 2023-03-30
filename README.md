@@ -32,7 +32,7 @@ The workshop will be designed to happen synchronously in 90 minute sessions. It 
 
 Domain modeling is possible in both functional and OOP paradigms. Domain modeling with OOP code is more traditional and there is a lot more reference material to support learners pursuing object oriented domain modeling - including the cornerstone texts The Blue Book and The Red Book.
 
-Due to the resurgence of popularity of functional programming there has been some recent work done in the functional domain modeling space. This course is not designed to have an option, but it does provide a starting point for either. Check out the [functional](/functional) readme or the [OOP](/oop) readmes to get started.
+Due to the resurgence of popularity of functional programming there has been some recent work done in the functional domain modeling space. This course is not designed to have an opinion about which is better, but it does provide a starting point for either. Check out the [functional](/functional) readme or the [OOP](/oop) readmes to get started.
 
 #### TDD
 
