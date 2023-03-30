@@ -6,7 +6,7 @@
 
 When developers are working on a software system they learn about the business and industry that the software is for. If you're working in finance you're going to learn about how transactions and accounts work, and you'll learn the specific rules for calculating interest in different kinds of financial instruments. If you're working in shipping you'll learn about how cargo makes its way to ports, is loaded onto ships and is moved around the globe satisfying complex and dynamic requirements about tracking and arrival dates. We learn all this domain knowledge and then encode it into the software systems that we build.
 
-Well designed systems **model** the business domain. The developers encode the knowledge about the domain into the system. This has two main benefits.
+Well-designed systems **model** the business domain. The developers encode the knowledge about the domain into the system. This has two main benefits.
 
 The first is that your software systems are intention revealing. They emanate domain knowledge. If a new developer is reading a section of code they learn about the domain by learning about the software system. You don't even need to be a new developer on the project -- it can just be you six months after you wrote something.
 
@@ -36,7 +36,7 @@ Due to the resurgence of popularity of functional programming there has been som
 
 #### TDD
 
-This app has no UI - the best way to interact with and run the code is through unit tests. If that winds up to be challening then that's good news! You'll be learning testing and TDD as well as domain modeling!
+This app has no UI - the best way to interact with and run the code is through unit tests. If that winds up to be challenging then that's good news! You'll be learning testing and TDD as well as domain modeling!
 
 #### Getting Started
 
