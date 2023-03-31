@@ -75,7 +75,7 @@ Ultimately I think these types can cleanly be worked into models, but it's up to
 - Free online book [Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbook.io/mostly-adequate-guide/)
 - [Talk: Functional Programming and Domain Driven Design](https://www.youtube.com/watch?v=56j8kLMdkyQ)
 
-## Rules for Code Quality
+## Practice Rules for Design Quality
 
 These rules are optional (especially in production code), but I recommend trying to stick to the [function calisthenics](https://www.codurance.com/publications/2017/10/12/functional-calisthenics) rules. These are rules that are desinged for practice sessions like this - so I encurage you to try them out!
 
