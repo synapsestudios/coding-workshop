@@ -74,3 +74,17 @@ Ultimately I think these types can cleanly be worked into models, but it's up to
 - [Book: Functional and Reactive Domain Modeling](https://www.manning.com/books/functional-and-reactive-domain-modeling)
 - Free online book [Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbook.io/mostly-adequate-guide/)
 - [Talk: Functional Programming and Domain Driven Design](https://www.youtube.com/watch?v=56j8kLMdkyQ)
+
+## Rules for Code Quality
+
+These rules are optional (especially in production code), but I recommend trying to stick to the [function calisthenics](https://www.codurance.com/publications/2017/10/12/functional-calisthenics) rules. These are rules that are desinged for practice sessions like this - so I encurage you to try them out!
+
+1. Name everything. No lambdas or anonymous functions!
+2. No mutable state. I wanna see some [Readonly](https://www.typescriptlang.org/docs/handbook/utility-types.html#readonlytype)
+3. Exhaustive Conditionals. There can not be an if without an else.
+4. Do not use intermediate variables. Use and understand functional pipelines!
+5. Expressions, not statements. All lines should return a value.
+6. No Explicit Recursion.
+7. Generic Building Blocks. This rule only applies "outside of the boundaries of your application" so not so useful for our purposes here.
+8. Side effects at the boundaries. The guts of your application should have no side effects.
+9. One argument functions. Each function should have a single parameter.
