@@ -41,7 +41,6 @@ This app has no UI - the best way to interact with and run the code is through u
 #### Getting Started
 
 1. Fork this repo and clone it to your machine
-1. Pick [functional](/functional) or [OOP](/oop).
-1. Read the install, testing and usage documentation
+1. Pick [functional](/functional) or [OOP](/oop) and read the README to get started
 1. Exercises are located [here](/exercises). Read the first one and do what it says!
 1. Refer to topics in the [pattern library](/pattern-library/) to help with your design
