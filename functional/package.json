@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@types/uuid": "^9.0.1",
+    "lodash": "^4.17.21",
     "oxide.ts": "^1.1.0",
     "uuid": "^9.0.0"
   }
