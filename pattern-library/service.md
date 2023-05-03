@@ -17,3 +17,9 @@ interface IFundsTransferService = {
 ```
 
 This services interface describes a banking domain operation: transferring an amount of money from one account to another. In this case I modeled the return value as a `TransferCompletedEvent` and left out the details of what that was. This is a good service because in banking transferring money is kind of complex - you have to create a credit in one account and a debit in another for the exact same amount, and it doesn't really quite fit into a single account entity.
+
+## Services in FP
+
+It will be tempting for FP elitists to scoff and say every function is stateless and is a service. In order to be useful and maintainable in the long run functional code needs to be organized into "classes" even if we don't use the class keyword. My entities should have a type and some set of basic entity behaviors, but I may need something like services as well. It can't all live in one file, but it can't all live in separate files either.
+
+In fact there's no reason why the interface in my example above couldn't apply to a functional program.
