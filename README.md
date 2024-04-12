@@ -26,7 +26,7 @@ For this workshop we will be building ONLY THE DOMAIN CODE for a Purchase Order 
 
 ### Participating in the Workshop
 
-The workshop will be designed to happen synchronously in 90 minute sessions. It is expected for developers to attend multiple. There will be a series of exercises which will prompt you to begin to model out the domain and a proctor will be on hand to answer any domain questions. The exercises can only be completed in order as later exercises will assume the completion of the former. They will simulate the real development of a PO system and the model will be developed over time. However, it is not strictly the goal to complete the exercises. If attendees wish to spend their time refactoring code from previous exercises to practice different modeling techniques that will be encouraged and expected. It will even be expected to start over from time to time.
+The workshop offers 90-minute synchronous sessions held biweekly, allowing flexibility for attendees to participate as their schedule permits. Each session follows a structured format comprising an introduction, dedicated time for independent work, and a check-in to review progress. Participants have the freedom to work at their own pace and are encouraged to attend multiple sessions, seamlessly resuming from where they left off. Peer and proctor support is readily available throughout, offering opportunities for dialogue and guidance on any queries or challenges encountered along the way.
 
 #### Functional vs OOP
 
