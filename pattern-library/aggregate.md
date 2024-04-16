@@ -1,6 +1,6 @@
 # Aggregate
 
-> An aggregate is a cluster of associated ojects taht we treat as a unit for th epurpose of data changes. Each aggregate has a root and a boundary. The boundary defines what is insie the aggregate. The root is a single, specific entity contained in the aggregate.
+> An aggregate is a cluster of associated ojects taht we treat as a unit for the purpose of data changes. Each aggregate has a root and a boundary. The boundary defines what is inside the aggregate. The root is a single, specific entity contained in the aggregate.
 >
 > Eric Evans, Domain Driven Design
 
