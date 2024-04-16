@@ -16,4 +16,4 @@ In order to review purchase orders a procurement employee needs to be presented 
 ## Approval
 
 Once a PO has been reviewed a procurmente employee will approve it and the PO entity will transition into a new "approved" state.
-Only submitted Purchase Orders can be approved.
+Only submitted Purchase Orders can be approved. ([Domain Invariant](https://github.com/synapsestudios/coding-workshop/blob/main/pattern-library/domain-invariant.md))
