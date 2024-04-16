@@ -4,3 +4,4 @@
 A repository is an object that allows clients to retrieve domain objects from storage. The repository abstracts away the details of how objects are stored (relational database? local storage?) and simply exposes an interface that looks like any Collection interface.
 
 - [Martin Fowler's Respository reference](https://martinfowler.com/eaaCatalog/repository.html)
+- [Esploring the Repository Pattern with Typescript and Node](https://blog.logrocket.com/exploring-repository-pattern-typescript-node/)
