@@ -1,6 +1,6 @@
 import { match } from "oxide.ts";
 import { isUuid } from "../../utilities/uuid";
-import { constructPORepository } from "../domain/PORepistory";
+import { constructPORepository } from "../domain/PORepository";
 import { isPurchaseOrder } from "../domain/PurchaseOrder";
 import { createPO } from "./Create-PO";
 

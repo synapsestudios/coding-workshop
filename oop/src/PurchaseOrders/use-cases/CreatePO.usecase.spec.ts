@@ -1,4 +1,4 @@
-import { PORepository } from "../domain/PORepistory";
+import { PORepository } from "../domain/PORepository";
 import { CreatePO } from "./CreatePO.usecase";
 
 describe("CreatePO", () => {
