@@ -20,3 +20,5 @@ As a PO submitter
 I expect to be notified when my PO is approved
 so that I can move on with my life, relieved, knowing that my order is on its way
 ```
+
+- PO Submitter is a new user role that is fleshed out further in later exercises
