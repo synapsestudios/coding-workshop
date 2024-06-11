@@ -1,5 +1,6 @@
 name: Build
 on:
+  pull_request:
   push:
     branches:
       - main
@@ -20,7 +21,8 @@ jobs:
         with:
           path: ".npm-cache"
           key: ${{ runner.os }}-node-modules-${{ hashFiles('package-lock.json') }}
-      - run: npm ci --cache .npm-cache --prefer-offline
+      - run: npm i
+      # - run: npm ci --cache .npm-cache --prefer-offline
       - run: npm test:ci
 
   oop_test:
