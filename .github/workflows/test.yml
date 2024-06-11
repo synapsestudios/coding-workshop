@@ -23,7 +23,7 @@ jobs:
           key: ${{ runner.os }}-node-modules-${{ hashFiles('package-lock.json') }}
       - run: npm i
       # - run: npm ci --cache .npm-cache --prefer-offline
-      - run: npm test:ci
+      - run: npm run test:ci
 
   oop_test:
     name: "Test - Object Oriented"
@@ -42,4 +42,4 @@ jobs:
           path: ".npm-cache"
           key: ${{ runner.os }}-node-modules-${{ hashFiles('package-lock.json') }}
       - run: npm ci --cache .npm-cache --prefer-offline
-      - run: npm test:ci
+      - run: npm run test:ci
