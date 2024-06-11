@@ -1,0 +1,43 @@
+name: Build
+on:
+  push:
+    branches:
+      - main
+jobs:
+  functional_test:
+    name: "Test - Functional"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: functional
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 12
+      - uses: actions/cache@v3
+        with:
+          path: ".npm-cache"
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('package-lock.json') }}
+      - run: npm ci --cache .npm-cache --prefer-offline
+      - run: npm test:ci
+
+  oop_test:
+    name: "Test - Object Oriented"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: oop
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 12
+      - uses: actions/cache@v3
+        with:
+          path: ".npm-cache"
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('package-lock.json') }}
+      - run: npm ci --cache .npm-cache --prefer-offline
+      - run: npm test:ci
